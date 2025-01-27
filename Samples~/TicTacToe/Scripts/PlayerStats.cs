@@ -37,7 +37,7 @@ namespace CondorHalcon.Glicko.Samples.TicTacToe
         }
         internal void Reset()
         {
-            rating = new Rating();
+            rating = new Rating(1500);
             wins = 0;
             losses = 0;
             draws = 0;
